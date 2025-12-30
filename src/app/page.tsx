@@ -162,7 +162,7 @@ export default function Home() {
           </div>
         );
     }
-  }, [currentView, searchQuery, currentSubView]);
+  }, [currentView, searchQuery, currentSubView, selectedAirline]);
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
