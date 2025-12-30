@@ -39,37 +39,6 @@
     "IATA URL": "https://www.iata.org/en/about/members/airline-list/avianca-costa-rica/99/"
   },
   {
-    "airline_name": "Challenge Airlines (IL) Ltd.",
-    "iata_code": "5C",
-    "manual_wheelchair_policy": "Challenge Airlines (IL) Ltd. is a freighter-only airline and does not operate scheduled passenger services. Manual wheelchairs are accepted as cargo shipments. Dimensions and weight are restricted by the cargo door limits of the Boeing 747-400F and 767-300F fleet. Devices must be securely crated or palletized to prevent damage during flight.",
-    "electric_wheelchair_policy": "Electric wheelchairs are transported as cargo and classified as Dangerous Goods. They must be declared and handled in accordance with IATA Dangerous Goods Regulations (DGR). Challenge Group is CEIV Lithium Battery certified, ensuring specialized handling for battery-powered mobility aids as freight.",
-    "battery_types_allowed": [
-      "Lithium-ion (UN3480/3481)",
-      "Non-spillable (Sealed Lead Acid, Gel, AGM) (UN3171)"
-    ],
-    "battery_handling_instructions": "Batteries must be protected against short circuits and accidental activation. For lithium-ion batteries shipped as cargo (UN3480), the state of charge (SoC) must not exceed 30%. Non-spillable batteries may remain installed if securely attached to the mobility aid and protected from damage.",
-    "special_assistance_contact_general": "As a cargo-only airline, Challenge Airlines (IL) does not have a passenger special assistance department. For inquiries regarding shipping wheelchairs or mobility aids as cargo, customers should contact the local sales or tracing office.",
-    "accessibility_emails": [
-      "tlvtracing.cal@challenge-group.com",
-      "tlvsales@challenge-group.com",
-      "customer.service.cac@challenge-group.com",
-      "lggsales.cal@challenge-group.com"
-    ],
-    "accessibility_phones": [
-      "+972 39779973",
-      "+356 27137174",
-      "+32 42347385"
-    ],
-    "sources": [],
-    "Legal Name": "Challenge Airlines (IL) Ltd.",
-    "Airline Code": 700.0,
-    "ICAO Code": "ICL",
-    "Country": "Israel",
-    "Region": "Europe",
-    "Website": "www.cal.co.il",
-    "IATA URL": "https://www.iata.org/en/about/members/airline-list/challenge-airlines-il/315/"
-  },
-  {
     "airline_name": "Deutsche Lufthansa Aktiengesellschaft",
     "iata_code": "LH",
     "manual_wheelchair_policy": "Lufthansa transports up to two mobility aids (e.g., manual wheelchairs, walkers) free of charge. Manual wheelchairs can be foldable or non-folding. Passengers must provide dimensions (length, width, height) and weight during booking or via the online registration process. Foldable wheelchairs can typically be used up to the departure gate where they are tagged as 'Delivery at aircraft' and loaded into the cargo hold. Note that smaller aircraft have cargo door limitations, with the narrowest being 71 cm.",
@@ -1614,6 +1583,37 @@
     "Region": "North Asia",
     "Website": "www.flycua.com",
     "IATA URL": "https://www.iata.org/en/about/members/airline-list/china-united-airlines/633/"
+  },
+  {
+    "airline_name": "Challenge Airlines (IL) Ltd.",
+    "iata_code": "5C",
+    "manual_wheelchair_policy": "Challenge Airlines (IL) Ltd. is a freighter-only airline and does not operate scheduled passenger services. Manual wheelchairs are accepted as cargo shipments. Dimensions and weight are restricted by the cargo door limits of the Boeing 747-400F and 767-300F fleet. Devices must be securely crated or palletized to prevent damage during flight.",
+    "electric_wheelchair_policy": "Electric wheelchairs are transported as cargo and classified as Dangerous Goods. They must be declared and handled in accordance with IATA Dangerous Goods Regulations (DGR). Challenge Group is CEIV Lithium Battery certified, ensuring specialized handling for battery-powered mobility aids as freight.",
+    "battery_types_allowed": [
+      "Lithium-ion (UN3480/3481)",
+      "Non-spillable (Sealed Lead Acid, Gel, AGM) (UN3171)"
+    ],
+    "battery_handling_instructions": "Batteries must be protected against short circuits and accidental activation. For lithium-ion batteries shipped as cargo (UN3480), the state of charge (SoC) must not exceed 30%. Non-spillable batteries may remain installed if securely attached to the mobility aid and protected from damage.",
+    "special_assistance_contact_general": "As a cargo-only airline, Challenge Airlines (IL) does not have a passenger special assistance department. For inquiries regarding shipping wheelchairs or mobility aids as cargo, customers should contact the local sales or tracing office.",
+    "accessibility_emails": [
+      "tlvtracing.cal@challenge-group.com",
+      "tlvsales@challenge-group.com",
+      "customer.service.cac@challenge-group.com",
+      "lggsales.cal@challenge-group.com"
+    ],
+    "accessibility_phones": [
+      "+972 39779973",
+      "+356 27137174",
+      "+32 42347385"
+    ],
+    "sources": [],
+    "Legal Name": "Challenge Airlines (IL) Ltd.",
+    "Airline Code": 700.0,
+    "ICAO Code": "ICL",
+    "Country": "Israel",
+    "Region": "Europe",
+    "Website": "www.cal.co.il",
+    "IATA URL": "https://www.iata.org/en/about/members/airline-list/challenge-airlines-il/315/"
   },
   {
     "airline_name": "RwandAir Ltd.",
