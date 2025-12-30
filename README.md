@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WheelAir
 
-## Getting Started
+**WheelAir** is a comprehensive, global database designed to empower wheelchair users and travelers with reduced mobility. By unifying airline policies and international regulations into a single, professional interface, we aim to eliminate the information asymmetry that often makes air travel stressful for the disability community.
 
-First, run the development server:
+## 🚀 The Problem
+Airline wheelchair policies are historically difficult to find—often buried in legal fine print, scattered across complex PDFs, or hidden behind inconsistent help centers. For travelers with expensive and essential mobility aids, this lack of clarity leads to anxiety, safety concerns, and potential damage to equipment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ The Solution
+WheelAir provides a unified, searchable, and verified source of truth.
+- **360+ Airlines:** Instant access to specific wheelchair and battery policies for almost every major carrier in the world.
+- **Technical Specs:** Clear guidelines on battery types (Lithium-ion, Dry, etc.), Watt-hour limits, and required handling instructions.
+- **Direct Contacts:** One-click access to dedicated accessibility emails and phone numbers.
+- **Legal Frameworks:** Integrated guides for EU 1107/2006, US DOT Part 382 (ACAA), and the Montreal Convention.
+- **Evidence-Based:** Every policy includes direct links to official sources for verification at the check-in counter.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Built With
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Animations:** Framer Motion
+- **Data:** Verified Aviation Mobility Database
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👤 About the Author
+**Chouaieb Nemri** is an AI expert at Google and an avid global traveler. Having witnessed the hurdles faced by the mobility-impaired community across different continents, he built WheelAir to ensure that every traveler has the information they need to fly with confidence, safety, and dignity.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Fly with confidence. Travel with dignity.*
