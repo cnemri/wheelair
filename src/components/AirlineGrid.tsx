@@ -12,7 +12,8 @@ import {
   ShieldCheck,
   ChevronRight,
   Stethoscope,
-  Globe
+  Globe,
+  MessageSquare
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -106,9 +107,10 @@ const AirlineCard: React.FC<AirlineCardProps> = ({ airline, onClick }) => {
 interface AirlineModalProps {
   airline: Airline;
   onClose: () => void;
+  onSuggest: () => void;
 }
 
-const AirlineModal: React.FC<AirlineModalProps> = ({ airline, onClose }) => {
+const AirlineModal: React.FC<AirlineModalProps> = ({ airline, onClose, onSuggest }) => {
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 sm:p-6">
       <motion.div 
@@ -253,11 +255,24 @@ const AirlineModal: React.FC<AirlineModalProps> = ({ airline, onClose }) => {
                 <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-4">Grounded Evidence</h4>
                 <div className="space-y-2">
                   {airline.sources.map((source, i) => (
-                    <a key={i} href={source} target="_blank" className="text-[11px] text-indigo-500 hover:text-indigo-700 truncate block py-2 px-3 bg-indigo-50/30 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <a key={i} href={source} target="blank" className="text-[11px] text-indigo-500 hover:text-indigo-700 truncate block py-2 px-3 bg-indigo-50/30 rounded-lg hover:bg-indigo-50 transition-colors">
                       {source}
                     </a>
                   ))}
                 </div>
+              </section>
+
+              <section className="pt-6 border-t border-slate-100">
+                <button 
+                  onClick={onSuggest}
+                  className="w-full py-3 px-4 bg-slate-900 text-white rounded-xl text-xs font-bold hover:bg-slate-800 transition-all flex items-center justify-center gap-2 shadow-lg shadow-slate-200"
+                >
+                  <MessageSquare className="w-4 h-4" />
+                  Suggest a Correction
+                </button>
+                <p className="text-[10px] text-slate-400 mt-3 text-center leading-relaxed px-4">
+                  Help the community by reporting outdated links or policy changes.
+                </p>
               </section>
             </div>
           </div>
@@ -299,6 +314,21 @@ export const AirlineGrid: React.FC<{
 
     return matchesSearch && matchesRegion && matchesCountry;
   });
+
+  const handleSuggest = () => {
+    if (!selectedAirline) return;
+    
+    // REPLACE THIS URL with your actual Google Form URL
+    // You can pre-fill fields using entry.ID query parameters
+    const baseUrl = "https://forms.gle/yPucCB8X44o2Tpy9A";
+    const params = new URLSearchParams({
+      "usp": "pp_url",
+      "entry.123456789": selectedAirline.airline_name, // Replace with your actual entry ID
+      "entry.987654321": selectedAirline.iata_code    // Replace with your actual entry ID
+    });
+    
+    window.open(`${baseUrl}?${params.toString()}`, "_blank");
+  };
 
   return (
     <div className="p-6 space-y-6">
@@ -358,6 +388,7 @@ export const AirlineGrid: React.FC<{
           <AirlineModal 
             airline={selectedAirline} 
             onClose={() => onSelectAirline(null)} 
+            onSuggest={handleSuggest}
           />
         )}
       </AnimatePresence>
