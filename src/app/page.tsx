@@ -132,7 +132,7 @@ export default function Home() {
                   Airline wheelchair policies are often buried in dense legal documents or outdated PDFs. <strong>WheelAir</strong> was created to solve this information asymmetry.
                 </p>
                 <p className="text-slate-600 leading-relaxed text-lg">
-                  By leveraging state-of-the-art Generative AI and real-time web grounding, we provide a clean, searchable, and verified interface for passengers to understand their rights and the technical requirements for their mobility aids before they reach the airport.
+                  By leveraging state-of-the-art Generative AI for data extraction and background web grounding, we provide a clean, searchable, and verified interface for passengers to understand their rights and the technical requirements for their mobility aids before they reach the airport.
                 </p>
               </div>
 
@@ -145,9 +145,9 @@ export default function Home() {
                 </div>
                 <div className="p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
                   <h3 className="font-bold text-emerald-900 mb-2 flex items-center gap-2">
-                    <ShieldCheck className="w-4 h-4" /> AI Grounded
+                    <ShieldCheck className="w-4 h-4" /> AI Powered
                   </h3>
-                  <p className="text-sm text-emerald-700 leading-relaxed">Information is dynamically retrieved and verified using Google's Gemini 3 Flash models.</p>
+                  <p className="text-sm text-emerald-700 leading-relaxed">The database was built using Google's Gemini 3 Flash models to scrape and ground data from official sources.</p>
                 </div>
               </div>
             </section>
